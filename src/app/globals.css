@@ -1,0 +1,35 @@
+.dog-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.dogs {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 80px;
+  margin: 10px;
+}
+.memes-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.memes {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  width: 60px;
+  margin: 10px;
+}
+
+.able,
+th,
+td {
+  border: 1px solid;
+}
+
+table {
+  width: 100%;
+}
